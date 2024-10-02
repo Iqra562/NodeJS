@@ -1,0 +1,3 @@
+Testing process.argv func
+
+//nodemon input.js create  process.txt "Testing process.argv func"
