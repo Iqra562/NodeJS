@@ -5,4 +5,4 @@ response.writeHead(200,{'Content-Type':'application\json'});
 // response.write(JSON.stringify({name:'IQRA',dep:'CS'}));
 response.write(JSON.stringify(data));
 response.end();
-}).listen(1000)
+}).listen(1000) 
