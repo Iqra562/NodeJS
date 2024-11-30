@@ -23,7 +23,7 @@ console.log(`Employee ${id} deleted`)
 
 const main = async()=>{
     await getEmployees();
-    const employeeID = '674ad8c242ec8412a05ac520';
+    const employeeID = '674ae0b5cc5568fff6aba95f';
     const updatedData={
         position : "unpaid intern",
         department:"IT"
