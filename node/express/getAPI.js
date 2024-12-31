@@ -6,7 +6,7 @@ connectDB()
 app.get('/employees',async  (req,res)=>{
 try{
  const employees = await Employee.find();
- res.json(employees)
+ res.json(employees)  
 }catch(err){
 console.log(err)
 res.status(500).send("SErver Error")
