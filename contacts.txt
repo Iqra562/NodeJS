@@ -1,0 +1,4 @@
+synchronous js 
+
+
+asynchronous js 
