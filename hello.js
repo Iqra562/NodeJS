@@ -1,2 +1,5 @@
-const math = require("./math")
-console.log(math(2,2))
+// const math = require("./math")
+// console.log(math.add(2,3))
+// console.log(math.sub(2,3))
+const {add,sub} = require("./math")
+console.log(sub(2,3))
