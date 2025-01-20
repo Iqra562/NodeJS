@@ -15,7 +15,6 @@ const myServer = http.createServer((req,res)=>{
             default:
                 res.end("404 not found") 
         }
-        res.end("Hello from server")
     })
     // console.log("New Req Received")
 })
