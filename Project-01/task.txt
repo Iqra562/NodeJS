@@ -1,0 +1,4 @@
+Dynamic path parameters
+GET /apiusers/:id
+
+:id ->Variable | Dynamic
