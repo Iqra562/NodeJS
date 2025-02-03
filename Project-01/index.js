@@ -29,11 +29,10 @@ app.post("/users",(req,res)=>{
 
     const body = req.body
     // console.log(body)
-    users.push({id:users.length +1 ,...body});
+    users.push({id:users.length +1,...body});
     fs.writeFile('./MOCK_DATA.json',JSON.stringify(users),(err,data)=>{
     
         return res.json({status:"success",id: users.length})
     })
 })
-
 app.listen(8000,()=>console.log('Server started at port 800'))

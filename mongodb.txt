@@ -1,0 +1,2 @@
+Schema - Define the structure
+Schema - Modal (by using modal we do crud)
