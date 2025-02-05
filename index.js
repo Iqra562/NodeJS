@@ -24,14 +24,15 @@ const userSchema = new mongoose.Schema({
     type :String,
   },
 })
-mongoose.connect('mongodb://localhost:27017/myDatabase')
-.then(()=>console.log('mongo db connected'))
-.catch((err)=>console.log('error',err))
-const User = mongoose.model('user',userSchema)
+mongoose.connect('mongodb+srv://iqra44938:vWAOuchONXPhdaHT@cluster0.mxfbz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+  .then(() => console.log('Connectejhjkwehd!'))
+  .catch((err)=>console.log('error',err))
+  // mongoose.connect('mongodb+srv://iqra44938:0h70s8xmdVd6G2J4@cluster0.yarkr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+  const User = mongoose.model('user',userSchema)
 app.get("/",(req,res)=>{
    return res.send("Hello from home page")
 })
-
+ 
 
 
 app.get("/about",(req , res )=>{

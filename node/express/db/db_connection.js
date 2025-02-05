@@ -6,7 +6,7 @@ const connectDB  =async()=>{
         console.log("mpngo db connected sucees")
     }
     catch(err){
-            console.log("MOngo db ")
+            console.log("MOngo db ") 
     }
 }
 module.exports= connectDB
