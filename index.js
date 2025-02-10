@@ -38,8 +38,8 @@ mongoose.connect('mongodb+srv://iqra44938:vWAOuchONXPhdaHT@cluster0.mxfbz.mongod
 
     })
     console.log(result)
+    return res.status(201).json({msg:"success"})
   })
-  return res.status(201).json({msg:"success"})
 app.get("/",(req,res)=>{
    return res.send("Hello from home page")
 })
