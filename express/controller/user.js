@@ -5,12 +5,16 @@ async function handleGetAllUsers(req,res){
 
 }
 
-async function getUserById(req,res){
+async function handleGetUserById(req,res){
      const user = await User.findById(req.params.id);
      if(!user) return res.status(404).json({error :"user not found"})
         return res.json(user)
 }
+
+async function handleUpdateUserById(req,res ){
+
+}
 module.exports = {
     handleGetAllUsers,
-    getUserById
+    handleGetUserById
 }

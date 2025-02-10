@@ -1,9 +1,13 @@
 const express =  require('express');
 const User = require('../models/userModel');
 const router = express.Router();
-const {handleGetAllUsers} = require('../controller/user')
+const {handleGetAllUsers,handleGetUserById} = require('../controller/user')
 
 router.get('/',handleGetAllUsers)
+
+router
+.route('/:id')
+.get(handleGetUserById)
 router.get("/users",async(req,res) =>{
     const allDbUsers = await User.find({});
     const html =`
