@@ -1,19 +1,4 @@
-NodeJs - runtime environment of js 
+userName : iqra44938
+passowrd:
 
-fs-file system . It is a node module .Use to handle file state 
-
-
-
-----------url---------------------------------------------------------------------------------------------
-
-url-uniform resource locator
-https://www.google.com/
-
-https is protocol . its  stands for hypertext transfer protocol secure 
-protocol is set of ruless
-
-www.google.com is domain - A user freindly name of  Ip addresss of   server
-
-and the / in end is root path or home page
-
-URL Query Parameters -  www.google.com/about?user.Id=1&a=2
+//connection string 
