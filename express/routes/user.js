@@ -1,13 +1,18 @@
 const express =  require('express');
 const User = require('../models/userModel');
 const router = express.Router();
-const {handleGetAllUsers,handleGetUserById} = require('../controller/user')
+const {handleGetAllUsers,handleGetUserById,handleUpdateUserById,handleDeleteUserById,handleCreateNewUser} = require('../controller/user')
 
-router.get('/',handleGetAllUsers)
+
+router.route('/')
+.get(handleGetAllUsers)
+.post(handleCreateNewUser);
 
 router
 .route('/:id')
 .get(handleGetUserById)
+.patch(handleUpdateUserById)
+.delete(handleDeleteUserById)
 router.get("/users",async(req,res) =>{
     const allDbUsers = await User.find({});
     const html =`
