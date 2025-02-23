@@ -27,4 +27,9 @@ const fs = require('fs')
 
 // it will append the text in file '
 
-fs.appendFileSync('./test.txt',`Hey there \n`)
+// fs.appendFileSync('./test.txt',`Hey there \n`)
+
+
+// it will copy the test file 
+
+fs.cpSync('./test.txt','./copy.txt')
