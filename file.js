@@ -1,4 +1,7 @@
 const fs = require('fs')
+const os = require('os');
+console.log(os.cpus().length)
+
 
 
 
@@ -11,7 +14,7 @@ const fs = require('fs')
 // fs.writeFile('./test.txt','hi',(err)=>{})
 
 
-    // the synchronous function returns something 
+// the synchronous function returns something 
 // const result = fs.readFileSync('./contacts.txt',"utf-8")
 // console.log(result)
 
@@ -32,4 +35,4 @@ const fs = require('fs')
 
 // it will copy the test file 
 
-fs.cpSync('./test.txt','./copy.txt')
+// fs.cpSync('./test.txt','./copy.txt')

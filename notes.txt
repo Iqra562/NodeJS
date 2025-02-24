@@ -3,3 +3,5 @@ npm  - node package manager
 npm init - npm initializer
 it creates a file which is used to run a project
 it is a configuration file 
+
+
