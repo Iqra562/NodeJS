@@ -1,0 +1,25 @@
+version 
+4.21.2
+
+1st part  -> 4
+2nd part  ->21
+3rd part  ->2
+
+3rd part - Minor Fixes (optional)
+2nd part - Recommended Bug fixes (security fix)
+3rd part - Major update /Breaking update
+
+
+^4.21.2
+^ - install all recommended and minor fixex
+this ^ will not update 1st part during installation
+
+
+
+~ approximately change
+
+
+~4.21.2
+~4.21.1
+~4.21.11
+~4.21.10 
