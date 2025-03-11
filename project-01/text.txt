@@ -1,0 +1,3 @@
+REST API - JSON 
+GET /users - HTML Document Render ----- for browser
+GET /api/users - List all users JSON ----- for mobile developer  
